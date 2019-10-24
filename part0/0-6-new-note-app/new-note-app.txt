@@ -1,0 +1,8 @@
+title 0.6: Creating a new note on the single page app at https://fullstack-exampleapp.herokuapp.com/spa
+
+note over browser:
+form is submitted 
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server-->browser: HTTP Status Code 201 Created
