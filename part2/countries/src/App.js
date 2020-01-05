@@ -9,7 +9,7 @@ const App = () => {
   const [URL, setURL] = useState('')
   const [weather, setWeather] = useState(null)
 
-  const access_key = 'f49d209d9cfc51916b2b162860333e4c'
+  const access_key = '' // ACCESS KEY GOES HERE
 
   useEffect(() => {
     axios
